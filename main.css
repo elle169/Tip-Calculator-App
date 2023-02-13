@@ -55,11 +55,6 @@ margin: 135px auto;
     background-color:  hsl(189, 41%, 97%);
 }
 
-.error {
-    outline: 2px solid  #f00f;
-  
-}
-
 
 .label-div {
     display: flex;
@@ -101,6 +96,33 @@ margin: 135px auto;
 
 .peopleinput:focus {
     outline: 2px solid hsl(172, 67%, 45%);
+}
+.error {
+   animation: shake 0.4s;
+    outline: 2px solid  #f00f;
+  
+}
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+.error:focus {
+    outline: 2px solid  #f00f;
+  
 }
 
 .selecttip-container { 
