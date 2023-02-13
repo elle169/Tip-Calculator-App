@@ -385,6 +385,8 @@ input[type=number]::-webkit-outer-spin-button {
 
     
     .selecttip-container {
+        height: 20vh;
+        width: 20.417vw; ;
         gap: 0.25rem;
         margin-top: 1px;
         display: grid;
@@ -403,6 +405,7 @@ input[type=number]::-webkit-outer-spin-button {
         flex-direction: column;
         justify-content: space-between;
         width: 90vw;
+        height: 70vh;
 
     }
 }
