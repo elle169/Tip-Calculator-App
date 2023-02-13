@@ -357,6 +357,37 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media (max-width: 460px) {
+    .main-calctip {
+        width: 85vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+    
+
+    
+    .selecttip-container {
+        height: 20vh;
+        width: 20.417vw; ;
+        gap: 0.25rem;
+        margin-top: 1px;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        
+    
+    }
+
+   
+
+    .main-displaytip {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90vw;
+        height: 70vh;
+
+    }
     .selecttip-container > button, input {
       
         width: 170px;
@@ -410,6 +441,37 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 @media (max-width: 325px){ 
+    .main-calctip {
+        width: 85vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+    
+
+    
+    .selecttip-container {
+        height: 20vh;
+        width: 20.417vw; ;
+        gap: 0.25rem;
+        margin-top: 1px;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        
+    
+    }
+
+   
+
+    .main-displaytip {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90vw;
+        height: 70vh;
+
+    }
     .selecttip-container > button, input {
       
         width: 130px;
@@ -417,6 +479,37 @@ input[type=number]::-webkit-outer-spin-button {
     }
 }
 @media (max-width: 285px){ 
+    .main-calctip {
+        width: 85vw;
+        height: 75vh;
+        display: flex;
+        flex-direction: column;
+     justify-content: space-between;
+    }
+    
+
+    
+    .selecttip-container {
+        height: 20vh;
+        width: 20.417vw; ;
+        gap: 0.25rem;
+        margin-top: 1px;
+        display: grid;
+        grid-template-columns: repeat(2,auto);
+        
+    
+    }
+
+   
+
+    .main-displaytip {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 90vw;
+        height: 70vh;
+
+    }
     .selecttip-container > button, input {
       
         width: 110px;
