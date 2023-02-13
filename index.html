@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | Tip calculator app</title>
+<link rel="stylesheet" href="main.css">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="
+    " href="https://www.frontendmentor.io/profile/elle169" >@elle169</a>.
+  </div>
+  <div class="logo">
+  <img src="images/logo.svg"></div>
+<div class="main-container">
+
+<section class="main-calctip">
+  <form class="billinput-container">
+ 
+
+    <label class="main-label">Bill</label> 
+<input type="number" data-billinput placeholder="0" value="" class="billinput" min="1" step=".1"><img class="input-icon" src="images/icon-dollar.svg"></form>
+<label class="main-label">Select Tip %</label>
+
+<form class="selecttip-container">
+<button data-percentbt value="5" type="button">5%</button>
+<button data-percentbt value="10" type="button">10%</button>
+<button data-percentbt value="15" type="button">15%</button>
+<button data-percentbt value="25" type="button">25%</button>
+<button data-percentbt value="50" type="button">50%</button>
+<input data-custompercent type="number" placeholder="Custom" min="1">
+</form>
+
+
+<form class="people-container" >
+  <div class="label-div">
+<label class="main-label">Number of people</label> <label class="errorMessage">Can't be zero</label></div>
+
+<input value="" data-numberpeople type="number" min="1" placeholder="0" class="peopleinput" step="1" id="peoplenumber">  <img class="input-icon" src="images/icon-person.svg">
+</form>
+
+</section>
+
+<section class="main-displaytip">
+<div class="calc-display">
+ <div class="labeldiplay"> <label class="tip-label">Tip Amount <span>/ person</span></label>
+ <label class="tip-label">Total <span>/ person</span></label> </div>
+
+ <div class="displaytotal">
+  <div data-amount class="tip-amount" id="tip-amount">$0.00</div>
+  <div data-total class="tip-amount" id="tip-total">$0.00</div></div>
+
+</div>
+
+<button data-reset class="reset-button">RESET</button>
+</section>
+
+</div>
+
+
+ <script src="main.js"></script>
+</body>
+</html>
