@@ -409,7 +409,13 @@ input[type=number]::-webkit-outer-spin-button {
 
     }
 }
+@media (max-width: 325px){ 
+    .selecttip-container > button, input {
+      
+        width: 130px;
 
+    }
+}
 @media (max-width: 285px){ 
     .selecttip-container > button, input {
       
